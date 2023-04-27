@@ -1,0 +1,12 @@
+nav {
+    background: lightgrey;
+}
+
+nav a {
+    margin-left: 10%
+}
+
+#linkedin {
+    margin-left: 50px;
+    width: 64px;
+}
