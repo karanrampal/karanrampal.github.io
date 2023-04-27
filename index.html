@@ -2,23 +2,58 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Karan's Website</title>
-		<link rel="icon" type="image/png" href="imgs/favicon.ico"/>
+		<title>Karan's Webpage</title>
+		<link rel="icon" type="image/png" href="imgs/favicon.ico">
+		<link rel="stylesheet" href="stylesheets/main.css">
 	</head>
 	<body>
 		<header>
-			<h1>Welcome to my website!</h1>
+			<h1>Welcome to my webpage!</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#workex">Work</a>
+        <a href="#pubs">Publications</a>
+        <a href="#patents">Patents</a>
+        <a href="#misc">Miscellaneous</a>
+      </nav>
 		</header>
-		<hr>
-		<main>How are you doing?</main>
-		<hr>
+		<main>
+      <p>How are you doing?</p>
+      <div>
+        <section id="about">
+          <h2>About</h2>
+          <p>About me</p>
+        </section>
+        <section id="workex">
+          <h2>Work Experience</h2>
+          <p>My work experience</p>
+        </section>
+        <section id="pubs">
+          <h2>Publications</h2>
+          <p>My publications</p>
+        </section>
+        <section id="patents">
+          <h2>Patents</h2>
+          <p>My patents</p>
+        </section>
+        <section id="misc">
+          <h2>Miscellaneous</h2>
+          <p>Other stuff goes here</p>
+        </section>
+      </div>
+    </main>
 		<footer>
-			<a target="_blank" href="https://github.com/karanrampal/">
-				<img src="imgs/GitHub-Mark-64px.png" alt="Link to Github page"/>
-			</a><br>
-			<a target="_blank" href="https://www.linkedin.com/in/karan-rampal/">
-				<img src="imgs/LI-In-Bug.png" width="64" alt="Link to Linkedin page"/>
-			</a>
+      <div class="social">
+        <h2>Socials</h2>
+        <p>I can be found on ...</p>
+			    <a target="_blank" href="https://github.com/karanrampal/">
+				    <img src="imgs/GitHub-Mark-64px.png" alt="Link to Github page">
+			    </a>
+			    <a target="_blank" href="https://www.linkedin.com/in/karan-rampal/">
+				    <img src="imgs/LI-In-Bug.png" alt="Link to Linkedin page" id="linkedin">
+			    </a>
+      </div>
+      <small>&copy; Karan Rampal</small>
 		</footer>
 	</body>
 </html>
