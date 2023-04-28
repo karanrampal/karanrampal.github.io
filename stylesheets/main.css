@@ -1,12 +1,38 @@
-nav {
-    background: lightgrey;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-nav a {
-    margin-left: 10%
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+}
+
+.hero {
+    padding: 22px 80px 66px 80px;
+}
+
+h1, h2, p {
+    margin-bottom: 22px;
+}
+
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+}
+
+.btn-alt {
+    border: 1px solid #dfe2e5;
+    padding: 10px 30px;
 }
 
 #linkedin {
-    margin-left: 50px;
+    margin-left: 2%;
     width: 64px;
 }
