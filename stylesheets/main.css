@@ -119,3 +119,14 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Image Styling */
+img {
+    height: 200px;
+    float: right;
+}
+
+#mypic {
+    height: 150px;
+    border-radius: 50%;
+}
