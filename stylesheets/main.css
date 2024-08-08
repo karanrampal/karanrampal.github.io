@@ -2,25 +2,20 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ebe9e9;
     line-height: 1.6;
 }
 
 header {
     background: #35424a;
     color: #fff;
-    padding-top: 10px;
     padding: 10px;
-    min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
 
 .container {
     max-width: 80%;
     margin: auto;
-    overflow: hidden;
 }
 
 h1, h2, h3 {
@@ -47,7 +42,6 @@ nav a {
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 nav a:hover {
@@ -56,7 +50,7 @@ nav a:hover {
 
 /* Section Styling */
 section {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 section h2 {
@@ -76,23 +70,35 @@ section h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Image Styling */
-img {
-    float: right;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto; /* Center the image */
-}
-
 /* Skills Styling */
 #skills ul {
     list-style: none;
-    padding: 0;
 }
 
 #skills li {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-label {
+    width: 130px;
+    margin-right: 20px;
+}
+
+/* Styling for the progress bars */
+.skill-bar {
+    width: 60%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.skill-progress {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
 }
 
 /* Contact Styling */
@@ -111,5 +117,5 @@ footer {
     background: #35424a;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
 }
