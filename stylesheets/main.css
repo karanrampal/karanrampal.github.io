@@ -1,38 +1,115 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+/* Basic Styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #35424a;
+    color: #fff;
+    padding-top: 10px;
+    padding: 10px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
 }
 
 .container {
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.hero {
-    padding: 22px 80px 66px 80px;
+h1, h2, h3 {
+    font-weight: bold;
 }
 
-h1, h2, p {
-    margin-bottom: 22px;
+h1 {
+    text-align: center;
 }
 
-.btn {
-    border-radius: 5px;
-    display: inline-block;
+nav ul {
+    list-style: none;
     margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.btn-alt {
-    border: 1px solid #dfe2e5;
-    padding: 10px 30px;
+nav li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
-#linkedin {
-    margin-left: 2%;
-    width: 64px;
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: #333; /* Slightly darker background on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #35424a;
+    padding-bottom: 10px;
+    border-bottom: #e8491d 3px solid;
+}
+
+.experience-item,
+.publications-item,
+.patents-item,
+.education-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+img {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+/* Skills Styling */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+/* Contact Styling */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Footer Styling */
+footer {
+    background: #35424a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
