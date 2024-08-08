@@ -1,57 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Karan's Webpage</title>
-		<link rel="icon" type="image/png" href="imgs/favicon.ico">
-		<link rel="stylesheet" href="stylesheets/main.css">
-	</head>
-	<body>
-		<header class="container">
-			<h1>Welcome!</h1>
-      <nav>
-        <a class="btn btn-alt" href="#about">About</a>
-        <a class="btn btn-alt" href="#workex">Work</a>
-        <a class="btn btn-alt" href="#pubs">Publications</a>
-        <a class="btn btn-alt" href="#patents">Patents</a>
-        <a class="btn btn-alt" href="#misc">Miscellaneous</a>
-      </nav>
-		</header>
-		<main class="container">
-      <div class="hero">
-        <section id="about">
-          <h2>About</h2>
-          <p>About me</p>
-        </section>
-        <section id="workex">
-          <h2>Work Experience</h2>
-          <p>My work experience</p>
-        </section>
-        <section id="pubs">
-          <h2>Publications</h2>
-          <p>My publications</p>
-        </section>
-        <section id="patents">
-          <h2>Patents</h2>
-          <p>My patents</p>
-        </section>
-        <section id="misc">
-          <h2>Miscellaneous</h2>
-          <p>Other stuff goes here</p>
-        </section>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan's - Portfolio</title>
+    <link rel="icon" type="image/png" href="imgs/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Karan Rampal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#patents">Patents</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Write a brief and engaging introduction about yourself...</p>
+            <img src="your-profile-picture.jpg" alt="Your Profile Picture"> 
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <article class="experience-item">
+                <h3>Job Title - Company Name</h3>
+                <p>Start Date - End Date (or "Present")</p>
+                <ul>
+                    <li>Describe your responsibilities...</li>
+                    <li>Highlight key projects...</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <article class="education-item">
+                <h3>Degree Name - University/Institution</h3>
+                <p>Graduation Year</p>
+                <p>Relevant coursework or achievements.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="container">
+            <h2>Publications</h2>
+            <article class="publications-item">
+                <h3>Project Title</h3>
+                <p>Brief description of the project and its purpose.</p>
+                <ul>
+                    <li>Key features and technologies used.</li>
+                    <li>Link to the project (if applicable).</li>
+                </ul>
+              </article>
+          </div>
+    </section>
+
+    <section id="patents">
+        <div class="container">
+            <h2>Patents</h2>
+            <article class="patents-item">
+                <h3>Project Title</h3>
+                <p>Brief description of the project and its purpose.</p>
+                <ul>
+                    <li>Key features and technologies used.</li>
+                    <li>Link to the project (if applicable).</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>List your technical and soft skills.</li>
+                <li>Consider using a progress bar or visual representation for skill levels.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Links to my social media profiles (LinkedIn, GitHub).</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/your-linkedin-profile/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/your-github-username/"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </div>
+    </section>
     </main>
-		<footer class="container">
-      <div class="social">
-        <p>I can be found on the following socials</p>
-			    <a target="_blank" href="https://github.com/karanrampal/">
-				    <img src="imgs/GitHub-Mark-64px.png" alt="Link to Github page">
-			    </a>
-			    <a target="_blank" href="https://www.linkedin.com/in/karan-rampal/">
-				    <img src="imgs/LI-In-Bug.png" alt="Link to Linkedin page" id="linkedin">
-			    </a>
-      </div>
-      <small>&copy; Karan Rampal</small>
-		</footer>
-	</body>
+
+    <footer>
+        <p>&copy; 2023 Karan Rampal</p>
+    </footer>
+</body>
 </html>
